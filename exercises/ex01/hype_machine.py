@@ -1,5 +1,8 @@
-# TODO: Write docstring here
+"""Practicing concatenation with input variables."""
 
-# TODO: Initialize __author__ variable here
+__author__ = "730329962"
 
-# TODO: Implement your program logic here
+name: str = input("What is your name? ")
+print("You got this, " + name)
+print(name + ", today is YOUR day!")
+print("Guess what " + name + "? You rock!")
